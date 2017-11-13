@@ -1,0 +1,62 @@
+{
+  "date": "1117",
+  "projectname": "TH16_repasEtTableDeFete",
+  "id": {
+    "fr": "1585", "bf": "1584", "bv": "1588", "nl": "1583", "de": "1587", "uk": "1586"},
+  "price": {
+    "fr": "Sélection<br />à partir de", "ent": "4", "dec": ".75", "unit": "€", "unituk": "£",
+    "de": "Sortiment<br />ab", "nl": "Selectie<br />vanaf", "uk": "Selection<br />from"
+  },
+  "pdt": {
+    "bf": {
+      "0": ["pk1", "pk2", "pk3", "pk4"],
+      "1": ["maison-deco/no-l/", "sapin-scintillant-dore", "2537116"],
+      "2": ["noel/table-en-fete-accessoires-cuisine/", "arbre-a-brochettes", "2588119"],
+      "3": ["noel/table-en-fete-accessoires-cuisine/", "theiere-tasse-2-en-1-poinsettia", "2818110"],
+      "4": ["univer/Sousunivers-path/pk4/", "lib-pk4", "ref-pk4"]
+    },
+    "bv": {
+      "0": ["pk1", "pk2", "pk3", "pk4"],
+      "1": ["huis-decoratie/kerstversiering/", "glinsterende-kerstboom-goudkleurig", "2537116"],
+      "2": ["kerstversiering/feesttafel-keukengerei/", "hapjesboom", "2588119"],
+      "3": ["kerstversiering/feesttafel-keukengerei/", "2-in-1-theepot-kop-met-kerstster", "2818110"],
+      "4": ["univer/Sousunivers-path/pk4/", "lib-pk4", "ref-pk4"]
+    },
+    "de": {
+      "0": ["pk1", "pk2", "pk3", "pk4"],
+      "1": ["heim-dekoration/weihnachtsdeko/", "gold-schillernder-weihnachtsbaum", "2537116"],
+      "2": ["weihnachtsdeko/festtafel-kuchenutensilien/", "aperitif-baumchen", "2588119"],
+      "3": ["weihnachtsdeko/festtafel-kuchenutensilien/", "teekanne-tasse-2-in-1-weihnachtsstern", "2818110"],
+      "4": ["univer/Sousunivers-path/pk4/", "lib-pk4", "ref-pk4"]
+    },
+    "fr": {
+      "0": ["pk1", "pk2", "pk3", "pk4"],
+      "1": ["maison-deco/no-l/", "sapin-scintillant-dore", "2537116"],
+      "2": ["cuisine/no-l/", "arbre-a-brochettes", "2588119"],
+      "3": ["cuisine/ustensiles-cuisine/", "cale-huitres", "5370010"],
+      "4": ["univer/Sousunivers-path/pk4/", "lib-pk4", "ref-pk4"]
+    },
+    "nl": {
+      "0": ["pk1", "pk2", "pk3", "pk4"],
+      "1": ["huis-decoratie/kerstversiering/", "glinsterende-kerstboom-goudkleurig", "2537116"],
+      "2": ["kerstversiering/feesttafel-keukengerei/", "hapjesboom", "2588119"],
+      "3": ["kerstversiering/feesttafel-keukengerei/", "2-in-1-theepot-kop-met-kerstster", "2818110"],
+      "4": ["univer/Sousunivers-path/pk4/", "lib-pk4", "ref-pk4"]
+    },
+    "uk": {
+      "0": ["pk1", "pk2", "pk3", "pk4"],
+      "1": ["home-decoration/christmas/", "led-star-decoration", "1015114"],
+      "2": ["christmas/festive-table-kitchen-accessories/", "skewer-tree", "2588119"],
+      "3": ["christmas/festive-table-kitchen-accessories/", "poinsettia-2-in-1-teapot-cup", "2818110"],
+      "4": ["univer/Sousunivers-path/pk4/", "lib-pk4", "ref-pk4"]
+    }
+  },
+  "txtBtn" : {
+    "bf": "Découvrez notre sélection",
+    "bv": "Ontdek alle selectie",
+    "de": "Entdecken Sie unsere Auswahl",
+    "fr": "Découvrez notre sélection",
+    "nl": "Ontdek alle selectie",
+    "uk": "Discover our selection"
+  }
+}
