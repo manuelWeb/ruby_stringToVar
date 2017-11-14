@@ -1,6 +1,5 @@
 == Slim::Template.new('evtSrc/var_global.slim').render
 == Slim::Template.new('evtSrc/FR/var.slim').render
--pkImg = false
 doctype strict
 html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
   head
@@ -10,7 +9,7 @@ html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
     / link href="evtSrc/FR/index.scss"
     script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"
   body
-    == $styleIE
+    / == $styleIE
     #evtFirst_Link.centralEvent
       #globalLink
         .bottomfade
@@ -29,8 +28,8 @@ html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
         -for i in (1..3) do
           li
             -linkpck = "$pck#{i}[:fr]"
-            a class="pck#{i}" href==eval(linkpck) onclick==($ggall_nl[i])
-              -if pkImg == true
+            a class="pck#{i}" href==eval(linkpck) onclick==($ggall_fr[i])
+              -if $pkImg == true
                 img src="pk#{i}.png" alt=""
 
       a.js-btn.gradient-btn-evtfirst href==($linkRay) onclick==($ga_ray_btn)

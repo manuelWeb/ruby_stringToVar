@@ -2,8 +2,7 @@
 -require 'json'
 -file = File.read('source.json')
 -$objso = JSON.parse(file)
-/ change date - THEME @see source.json
-/ change > pdtfr > FR @see source.json
+/ change date - THEME - pkImg -link @see source.json
 / DON'T change google PK x3 track
 -ggpk = { #...,
   pck1: "'#{$objso['pdt']['fr']['0'][0]}_#{$objso['pdt']['fr']['1'][1]}_#{$objso['pdt']['fr']['1'][2]}', ", pck2: "'#{$objso['pdt']['fr']['0'][1]}_#{$objso['pdt']['fr']['2'][1]}_#{$objso['pdt']['fr']['2'][2]}', ", pck3: "'#{$objso['pdt']['fr']['0'][2]}_#{$objso['pdt']['fr']['3'][1]}_#{$objso['pdt']['fr']['3'][2]}', ", pck4: "'#{$objso['pdt']['fr']['0'][3]}_#{$objso['pdt']['fr']['4'][1]}_#{$objso['pdt']['fr']['4'][2]}', ",
@@ -19,7 +18,7 @@
 // do not change google track
 -ggstart = "ga('local.send', 'event', 'EncartHP', "
 -ggend = "document.location.pathname);"
--$ggall = [0, ggstart+ggpk[:pck1]+ggend, ggstart+ggpk[:pck2]+ggend, ggstart+ggpk[:pck3]+ggend, ggstart+ggpk[:pck4]+ggend]
+-$ggall_fr = [0, ggstart+ggpk[:pck1]+ggend, ggstart+ggpk[:pck2]+ggend, ggstart+ggpk[:pck3]+ggend, ggstart+ggpk[:pck4]+ggend]
 -$ggall_bf = [0, ggstart+ggpk[:pck1_bf]+ggend, ggstart+ggpk[:pck2_bf]+ggend, ggstart+ggpk[:pck3_bf]+ggend, ggstart+ggpk[:pck4_bf]+ggend]
 -$ggall_de = [0, ggstart+ggpk[:pck1_de]+ggend, ggstart+ggpk[:pck2_de]+ggend, ggstart+ggpk[:pck3_de]+ggend, ggstart+ggpk[:pck4_de]+ggend]
 -$ggall_nl = [0, ggstart+ggpk[:pck1_nl]+ggend, ggstart+ggpk[:pck2_nl]+ggend, ggstart+ggpk[:pck3_nl]+ggend, ggstart+ggpk[:pck4_nl]+ggend]
@@ -58,3 +57,4 @@
   de: "#{$urlIC[0]+$urlIC[3]}#{$objso['pdt']['de']['4'][0]}#{$objso['pdt']['de']['4'][1]}/#{$objso['pdt']['de']['4'][2]}.html",
   uk: "#{$urlIC[0]+$urlIC[5]}#{$objso['pdt']['uk']['4'][0]}#{$objso['pdt']['uk']['4'][1]}/#{$objso['pdt']['uk']['4'][2]}.html",
   }
+-$pkImg = $objso['pkImg']
