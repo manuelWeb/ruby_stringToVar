@@ -9,7 +9,7 @@ html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
     / link href="./evtSrc/DE/index.scss"
     script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"
   body
-    == $styleIE
+    / == $styleIE
     #evtFirst_Link.centralEvent
       #globalLink
         .bottomfade
@@ -25,18 +25,12 @@ html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
 
       / pk
       ul
-        li
-          a.pck1 href==($pck1[:de]) onclick==($ggall_de[1])
-            / img src="pk1.png" alt=""
-        li
-          a.pck2 href==($pck2[:de]) onclick==($ggall_de[2])
-            / img src="pk2.png" alt=""
-        li
-          a.pck3 href==($pck3[:de]) onclick==($ggall_de[3])
-            / img src="pk3.png"alt=""
-        / li
-        /   a.pck4 href==($pck4[:de]) onclick==($ggall_de[4])
-            / img src="pk3.png"alt=""
+        -for i in (1..3) do
+          li
+            -linkpck = "$pck#{i}[:de]"
+            a class="pck#{i}" href==eval(linkpck) onclick==($ggall_de[i])
+              -if $pkImg == true
+                img src="pk#{i}.png" alt=""
 
       a.js-btn.gradient-btn-evtfirst href==($linkRay) onclick==($ga_ray_btn)
         span.reflet &nbsp;

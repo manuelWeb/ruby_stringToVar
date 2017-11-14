@@ -6,7 +6,7 @@
 $fontSerif: Georgia, "Times New Roman", Times, serif;
 $font-stack-arial: Arial, Helvetica, sans-serif;
 $price_bg-color: #CC9933;
-$btn-bg : #C20D00;//#ffff00
+$btn-bg : #CC9933;//#ffff00
 $btn-bd : 3;
 $btn-hover : #393913;
 $btn-txtColor: #5F1F06;
@@ -44,10 +44,10 @@ li {
       border: 1px solid transparent;
 			transition: all 1s;
     }
-    &.pck1, &.pck2, &.pck3, &.pck4 {top: 52px; height: 244px; }
-    &.pck1 {left: 310px; width: 204px; }
-    &.pck2 {left: 520px; width: 198px; }
-    &.pck3 {left: 726px; width: 202px; }
+    &.pck1, &.pck2, &.pck3, &.pck4 {top: 56px; height: 240px; }
+    &.pck1 {left: 18px; width: 214px; }
+    &.pck2 {left: 240px; width: 204px; }
+    &.pck3 {left: 454px; width: 212px; }
     &.pck4 {left: 680px; width: 268px; }
 		// &:hover {
 		// 	border-radius: 100%;
@@ -57,7 +57,7 @@ li {
 }
 // price
 .price {
-  position: absolute; top: 78px; left: 724px;
+  position: absolute; top: 58px; left: 724px;
   width: 148px; height: 148px;
   font: normal 16px $font-stack-arial;
   line-height: 21px;
@@ -94,8 +94,8 @@ li {
   box-sizing: content-box;
   display: inline-block;
   height: 42px;
-  margin: 252px 0 0 672px;
-  padding: 0 20px;
+  margin: 232px 0 0 662px;
+  padding: 0 10px;
   text-align: center;
   border: #{$btn-bd}px solid #FFF6BE; color: $btn-txtColor;
   font: normal bold 16px $font-stack-arial; text-decoration: none;
