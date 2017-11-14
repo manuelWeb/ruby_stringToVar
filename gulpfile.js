@@ -160,9 +160,6 @@ gulp.task('killCssMap', function(){
 gulp.task('zipAllGuy',function () {
   // zipall files
   console.log('zipNow ???')
-
-  // npm install --save-dev gulp-foreach
-  // var foreach = require("gulp-foreach");
   return gulp.src("./evtProd/*")
     .pipe(foreach(function(stream, file) {
       var fileName = file.path.substr(file.path.lastIndexOf("\\") + 1);
